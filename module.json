@@ -1,7 +1,7 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "paranoia_PE_translate_KO",
+  "title": "Paranoia_PE_Translate_KO",
+  "description": "This is the Korean translation module for the Paranoia PE version.",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
