@@ -1,40 +1,47 @@
 {
-  "id": "paranoia_PE_translate_KO",
-  "title": "Paranoia_PE_Translate_KO",
-  "description": "This is the Korean translation module for the Paranoia PE version.",
+  "id": "Translate_KO_Paranoia_PE",
+  "title": "Translate Korea : Paranoia PE",
+  "description": "파라노이아 PE 시스템 한국어 번역 모듈입니다. This is the Korean translation module for the Paranoia PE version.",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "verified": 11.315,
+    "maximum": 12
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "nainwiz",
+      "url": "none",
+      "discord": "nain_00z"
     }
   ],
   "relationships": {
     "systems": [],
     "requires": []
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
+  "esmodules": ["scripts/babele-register.js"],
+	"styles": ["styles/style.css"],
+	"relationships": {
+		"systems": [
+			{
+				"id": "ParanoiaPE",
+        		"type": "system"
+			}
+		],
+		"requires": [{
+			"id": "babele",
+			"type": "module",
+			"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+		  }]
+	  },
+  
   "languages": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
+      "lang": ""ko",
+			"name": "Korean",
+			"path": "localization/languages/ko/ko.json"
     }
   ],
   "url": "#{URL}#",
