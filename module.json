@@ -26,7 +26,7 @@
 	"relationships": {
 		"systems": [
 			{
-				"id": "ParanoiaPE",
+				"id": "paranoiape",
         		"type": "system"
 			}
 		],
@@ -39,7 +39,7 @@
   
   "languages": [
     {
-      "lang": ""ko",
+			"lang": "ko",
 			"name": "Korean",
 			"path": "localization/languages/ko/ko.json"
     }
